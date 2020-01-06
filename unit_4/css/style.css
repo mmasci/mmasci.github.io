@@ -28,22 +28,29 @@ hr {
 	width: 75%;
 	color: #283099;
 }
+img {
+	align-items: center;
+}
 
 .button {
   background-color: #283099;
+  border: 2px solid white;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-/*  font-size: 16px;*/
+  text-align: center;
 }
 
 .button:hover {
   background-color: white;
   border: 2px solid #283099;
   color: #283099;
-  padding: 10px 30px;
+  padding: 15px 32px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .centretext {
