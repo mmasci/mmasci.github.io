@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+	margin-left: 300px; 
+	margin-right: 300px;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    color: #283099;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    color: #283099;
+    font-size: 1.5em;
+}
+
+p, ul {
+    font-family: Helvetica, sans-serif;
+    color: #283099;
+    /*max-width: 50%;*/
+    line-height: 1.5em;
+}
+
+hr {
+	width: 75%;
+	color: #283099;
+}
+
+.centretext {
+	text-align: center;
+}
