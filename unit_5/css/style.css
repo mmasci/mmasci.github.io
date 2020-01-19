@@ -1,0 +1,80 @@
+
+
+body{
+	margin-left: 7em; 
+	margin-right: 7em
+}
+
+h1, h3, p, img {
+  margin: 2 auto;
+  text-align: center;
+  padding: 1.2em;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    color: #283099;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    color: #283099;
+    font-size: 1.5em;
+}
+
+p, ul {
+    font-family: Helvetica, sans-serif;
+    color: #283099;
+    line-height: 1.5em;
+    max-width: 60%;
+}
+
+hr {
+	width: 75%;
+	color: #283099;
+}
+
+.links {
+    font-family: Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: #283099;
+    max-width: 50%;
+    float: right;
+    padding: .8em;
+}
+
+.button {
+  background-color: #283099;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: white;
+  border: 2px solid #283099;
+  color: #283099;
+  padding: 15px 32px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.clients {
+  display:block;
+  background-color: #DEDEDE;
+  margin: 2 auto;
+}
+
+#aboutimage {
+  float=right;
+}
+
+#servicesimage {
+  float=left;
+}
