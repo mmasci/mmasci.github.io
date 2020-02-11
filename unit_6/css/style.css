@@ -1,10 +1,10 @@
 
 
-body{
+/*body{
 	margin-left: 7em; 
 	margin-right: 7em;
 }
-
+*/
 h1, h3, p, img {
   margin: 2% auto;
   text-align: center;
@@ -26,13 +26,18 @@ h3 {
 p, ul {
     font-family: Helvetica, sans-serif;
     color: #283099;
-    line-height: 1.5em;
+    line-height: 1.1em;
     max-width: 60%;
 }
 
 hr {
 	width: 75%;
 	color: #283099;
+}
+
+header{
+  margin-left: 7em; 
+  margin-right: 7em;
 }
 
 .links {
@@ -66,15 +71,53 @@ hr {
 }
 
 .clients {
-  display:block;
+  display:flex;
   background-color: #DEDEDE;
-  margin: 2% auto;
+  margin: 1.5 auto;
 }
 
 #aboutimage {
   float: right;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 #servicesimage {
   float: left;
+  padding-left: 5em;
+  padding-right: 5em;
 }
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 65%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 28%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  margin-left: 7em; 
+  margin-right: 7em;
+}
+
