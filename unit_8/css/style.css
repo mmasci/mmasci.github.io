@@ -1,0 +1,148 @@
+
+
+body{
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  margin: 0 auto;
+}
+
+h1, h3, p {
+  margin: 2% auto;
+  text-align: center;
+  padding: .8em;
+}
+
+h1 {
+    color: #283099;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    color: #283099;
+    font-size: 1.5em;
+}
+
+p, ul {
+    font-family: Helvetica, sans-serif;
+    color: #283099;
+    line-height: 1.1em;
+    max-width: 60%;
+}
+
+img {
+  padding: 1.2em;
+}
+
+hr {
+	width: 75%;
+	color: #283099;
+}
+
+header {
+  margin-left: 7em; 
+  margin-right: 7em;
+}
+
+nav {
+  margin: .5em auto;
+}
+
+nav a {
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: #283099;
+    max-width: 50%;
+    float: right;
+    padding: 1em .8em 1.5em;
+}
+
+.button {
+  background-color: #283099;
+  border: .2em solid white;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: white;
+  border: .2em solid #283099;
+  color: #283099;
+  padding: 1em 2em;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+  background-color: #DEDEDE;
+}
+
+#aboutimage {
+  float: right;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#servicesimage {
+  float: left;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  margin-left: 7em; 
+  margin-right: 7em;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px){
+  
+  body{
+    font-size: 12px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin: 0 auto;
+  }
+  
+  nav {
+    margin: 0 auto;
+  }
+
+  nav a {
+    display: inline;
+    text-align: center;
+    float: none; 
+    font-size: 0.8em;
+   }
+
+  p, ul {
+    line-height: 1em;
+    max-width: 90%;
+  }
+  
+  #aboutimage {
+    float: right;
+    padding-left: 1.2em;
+    padding-right: .2em;
+  }
+
+  #servicesimage {
+    float: left;
+    padding-left: .5em;
+    padding-right: 1.5em;
+  }
+}
