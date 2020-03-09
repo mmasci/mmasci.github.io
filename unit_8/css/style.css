@@ -90,7 +90,7 @@ nav a {
   padding-right: 2em;
 }
 
-#servicesimage {
+#servicesimage {  
   float: left;
   padding-left: 5em;
   padding-right: 5em;
@@ -107,7 +107,7 @@ nav a {
   margin-right: 7em;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 800px){
+@media only screen and (max-width: 800px){
   
   body{
     font-size: 12px;
